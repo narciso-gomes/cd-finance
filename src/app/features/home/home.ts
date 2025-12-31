@@ -9,9 +9,9 @@ import { Balance } from "./components/balance/balance";
 })
 export class Home {
    transactions = signal([
-    { value: 0, type: 'income' },
+    { value: 1500, type: 'income' },
     { value: 1500, type: 'outcome' },
     { value: 2000, type: 'income' },
-    { value: 800, type: 'outcome' },
+    { value: 2000, type: 'outcome' },
    ])
 }
